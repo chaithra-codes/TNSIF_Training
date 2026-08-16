@@ -6,16 +6,15 @@ interface Vehicle{
 	final static int Max_speed=120;
 
 	 public default void repair() 
-	 {
-
-			
-				System.out.println("We provide repair service");
-			}
-			static void checkMaintaince()
-			{
-				System.out.println("Vehicle maintaince taken care here");
-			}
+	   {
+         System.out.println("We provide repair service");
+	   }
+	
+	 static void checkMaintaince()
+	    {
+		   System.out.println("Vehicle maintaince taken care here");
 		}
+	}
 
 		class Car implements Vehicle
 		{
@@ -64,7 +63,7 @@ public class Default_Static_Demo {
 
 	public static void main(String[] args) {
 		Vehicle car=new Car("KIA");
-		Vehicle bike=new Bike("RX 100");
+		Vehicle bike=new Bike("Royal enfield x650");
 		
 		car.start();
 		car.stop();
@@ -78,8 +77,7 @@ public class Default_Static_Demo {
 	    Vehicle.checkMaintaince();
 	   
 	    System.out.println("MaxSpeed "+Vehicle.Max_speed);
-		// TODO Auto-generated method stub
-
+		
 	}
 
 }
