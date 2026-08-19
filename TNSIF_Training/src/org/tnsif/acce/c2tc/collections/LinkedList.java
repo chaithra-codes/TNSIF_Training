@@ -1,11 +1,12 @@
 package org.tnsif.acce.c2tc.collections;
-import java.util.ArrayList;
-import java.util.List;
 
-public class ArrayListDemo {
+import java.util.LinkedList;
+
+
+public class LinkedList {
 
 	public static void main(String[] args) {
-		List<String> fruits=new ArrayList<>();
+		List<String> fruits=new LinkedList<>();
 		fruits.add("Apple");
 		fruits.add("Mango");
 		fruits.add("Dragon Fruit");
@@ -39,6 +40,6 @@ public class ArrayListDemo {
 		{
 			System.out.println("Traversing using for-each loop "+fruit);
 		}
-
 	}
+
 }
