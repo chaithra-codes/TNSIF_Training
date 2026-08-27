@@ -15,11 +15,6 @@ public class GenericMethod {
 	
 	}
 	
-	
-	
-	
-	
-	
 
 	public static void main(String[] args) {
 		Integer[] intArray = {1,2,3,4,5};
