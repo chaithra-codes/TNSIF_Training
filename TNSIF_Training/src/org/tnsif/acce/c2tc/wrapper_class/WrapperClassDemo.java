@@ -1,4 +1,4 @@
-package wrapper_class;
+package org.tnsif.acce.c2tc.wrapper_class;
 
 public class WrapperClassDemo {
 
